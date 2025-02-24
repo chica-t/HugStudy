@@ -1,0 +1,46 @@
+@media screen and (max-width:479px) {
+    #wrapper {
+        width: 200px;
+    }
+
+    .orange {
+        height: 174px;
+    }
+    
+    
+    .orangeinner {
+        height: 135px;
+        width: 60px;
+        margin:20px 70px 0 70px ;
+    }
+
+    .greenblocks {
+        height: 33px;
+        margin-top: 9px;
+    }
+
+    .lightblue {
+        height: 85px;
+        width: 200px;
+    }
+
+    .lightgreen {
+        height: 174px;
+        width: 200px;
+        padding: 0.1px;
+        float: right;
+    }
+
+    .pinkblocks {
+        height: 32px;
+        margin-left: 30px;
+    }
+
+    .pinkblocks1 {
+        margin-top: 20px;
+    }
+    
+    .purple {
+        height: 85px;
+    }   
+}
