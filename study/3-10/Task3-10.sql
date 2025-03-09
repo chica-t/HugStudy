@@ -35,4 +35,4 @@ LEFT JOIN areaname ON TBL1.areacode = TBL2.areacode;
 -- 8. 「新宿」店の在庫数が10以上の商品の商品コード（GoodsCode）、商品名（GoodsName）、在庫数（quantity）を抽出して下さい。
 
 SELECT TBL1.goodscode,TBL1.goodsname,TBL2.quantity FROM goods TBL1
-JOIN stocks TBL2 ON TBL1.goodscode = TBL2.goodscode AND shopcode = '001' AND quantity >= 10;
+JOIN stocks TBL2 ON TBL1.goodscode = TBL2.goodscode WHERE shopcode = '001' AND quantity >= 10;
